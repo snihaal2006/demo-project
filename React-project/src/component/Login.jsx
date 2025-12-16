@@ -10,3 +10,13 @@ function Login() {
 }
 
 export default Login;
+
+
+export function Sample() {
+  return (
+    <div>
+      <h2>Sample Component</h2>
+      <p>This is a sample component exported from Login.jsx</p>
+    </div>
+  );
+}
